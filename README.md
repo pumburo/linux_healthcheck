@@ -2,4 +2,4 @@
 Healthcheck script or linux systems
 
 
-wget -qO- https://raw.githubusercontent.com/pumburo/log4j_checker_beta/main/log4j_checker_beta.sh | sudo bash
+wget -qO- https://raw.githubusercontent.com/pumburo/linux_healthcheck/main/healthCheck.sh | sudo bash
