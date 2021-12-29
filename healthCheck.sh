@@ -29,6 +29,11 @@ if [ -f /etc/os-release ]; then
 	dPrint "OS information"
 	cat /etc/os-release
 fi
+if [ ! -z $(command -v vmstat) ]; then
+	newPart
+	dPrint "VMSTAT"
+	vmstat 1 10
+fi
 newPart
 dPrint "Uptime"
 echo "Uptime:$(uptime)"
