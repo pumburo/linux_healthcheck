@@ -32,7 +32,7 @@ fi
 if [ ! -z $(command -v vmstat) ]; then
 	newPart
 	dPrint "VMSTAT"
-	vmstat 1 10
+	vmstat 1 5
 fi
 newPart
 dPrint "Uptime"
